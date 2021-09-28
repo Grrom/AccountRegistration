@@ -21,5 +21,10 @@ namespace AccountRegistration
         {
 
         }
+
+        private void nextButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
