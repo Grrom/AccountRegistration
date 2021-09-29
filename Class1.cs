@@ -2,7 +2,7 @@
 
 
 public delegate long DelegateNumber(long number);
-public delegate long DelegateText(string text);
+public delegate string DelegateText(string text);
 
 public class StudentInfoClass
 {
@@ -20,36 +20,36 @@ public class StudentInfoClass
     {
     }
 
-    public static string GetFirstName(string Firstname)
+    public static string GetFirstName(string FirstName)
     {
-        return Firstname;
+        return FirstName;
     }
-    public static string GetLastName(string Firstname)
+    public static string GetLastName(string LastName)
     {
-        return Firstname;
+        return LastName;
     }
-    public static string GetMiddleName(string Firstname)
+    public static string GetMiddleName(string MiddleName)
     {
-        return Firstname;
+        return MiddleName;
     }
-    public static string GetAddress(string Firstname)
+    public static string GetAddress(string Address)
     {
-        return Firstname;
+        return Address;
     }
-    public static string GetProgram(string Firstname)
+    public static string GetProgram(string Program)
     {
-        return Firstname;
+        return Program;
     }
-    public static string GetAge(string Firstname)
+    public static long GetAge(long Age)
     {
-        return Firstname;
+        return Age;
     }
-    public static string GetContactNo(string Firstname)
+    public static long GetContactNo(long ContactNo)
     {
-        return Firstname;
+        return ContactNo;
     }
-    public static string GetStudentNo(string Firstname)
+    public static long GetStudentNo(long StudentNo)
     {
-        return Firstname;
+        return StudentNo;
     }
 }

@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace AccountRegistration
 {
+
     public partial class Form1 : Form
     {
         public Form1()
@@ -34,6 +35,8 @@ namespace AccountRegistration
             long.TryParse(ageBox.Text, out StudentInfoClass.Age);
             long.TryParse(contactBox.Text, out StudentInfoClass.ContactNo);
             long.TryParse(studentNoBox.Text, out StudentInfoClass.StudentNo);
+
+            new Form2().Show();
         }
     }
 }
