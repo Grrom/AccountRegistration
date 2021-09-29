@@ -20,7 +20,7 @@ public class StudentInfoClass
     {
     }
 
-    public static string GetFirstName(string FirstName)
+    public static string GetFirstName(string Fi)
     {
         return FirstName;
     }
